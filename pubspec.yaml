@@ -1,0 +1,23 @@
+name: text_to_speech
+description: Text to Speech
+version: 1.0.0
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+  flutter: ">=1.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  plugin:
+    platforms:
+      android:
+        package: com.mobiledev.text_to_speech
+        pluginClass: TextToSpeechPlugin
