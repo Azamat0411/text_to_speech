@@ -1,6 +1,7 @@
 name: text_to_speech
 description: Text to Speech
 version: 1.0.0
+homepage: https://github.com/Azamat0411/text_to_speech
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
